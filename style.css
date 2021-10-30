@@ -1,0 +1,135 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef;
+}
+/* Typography */
+.logo {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.3rem;
+}
+.heading__text-title {
+    font-size: 3.7rem;
+}
+.heading__text-paragraph {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.section__title { 
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.article__heading {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+.article__paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.footer__paragraph {
+    font-size: 1.2rem;
+}
+/* Blocks and elements */
+.header {
+    margin:0 auto 8rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.heading__text {
+    color: #fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.heading__hr{
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+    width: 50%;
+}
+.heading__hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+.main {
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    background-color: #fff;
+}
+.section-list {
+    color: #444;
+}
+.section__menu > li {
+    margin-left: 2rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    list-style-type: disc;
+}
+.section__menu > li > a{
+    text-decoration: none;
+    color: #000;
+
+}
+.section__menu > li > a:hover {
+    color: #666;
+}
+.section-articles {
+    padding-top: 10rem;
+}
+.figure {
+    display: flex;
+    justify-content: center;
+}
+.figure__img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+.cat {
+    padding-bottom: 5rem;
+}
+.article__separator {
+    height: 30px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 5px 0 0 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ddd;
+    min-height: 5rem;
+}
